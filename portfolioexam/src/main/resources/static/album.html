@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html data-navigation-type="default" data-navbar-horizontal-shape="default" lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Phoenix</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="/vendors/simplebar/simplebar.min.js"></script>
+    <script src="/assets/js/config.js"></script>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="/vendors/simplebar/simplebar.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="/assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="/assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+    <link href="/assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="/assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <script>
+      var phoenixIsRTL = window.config.config.phoenixIsRTL;
+      if (phoenixIsRTL) {
+        var linkDefault = document.getElementById('style-default');
+        var userLinkDefault = document.getElementById('user-style-default');
+        linkDefault.setAttribute('disabled', true);
+        userLinkDefault.setAttribute('disabled', true);
+        document.querySelector('html').setAttribute('dir', 'rtl');
+      } else {
+        var linkRTL = document.getElementById('style-rtl');
+        var userLinkRTL = document.getElementById('user-style-rtl');
+        linkRTL.setAttribute('disabled', true);
+        userLinkRTL.setAttribute('disabled', true);
+      }
+    </script>
+    <link href="/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+  </head>
+
+<body class="d-flex flex-column">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">유민의 포트폴리오</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">이력서</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">프로젝트</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">연락처</a></li>
+                            <li class="nav-item"><a class="nav-link" href="board.html">게시판</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+  
+        <div class="bg-latest-posts"></div>
+        <div class="container-medium text-center position-relative z-2">
+          <h3 class="mb-2 text-body-emphasis">사진 앨범</h3>
+          <p class="mb-0 text-body-tertiary mb-13">Find the best travel memories from our past tours and get a clear idea of what we do.</p>
+        </div>
+        <div class="swiper-theme-container swiper-zooming-slider">
+          <div class="swiper-container theme-slider" data-swiper='{"loop":true,"slidesPerView":1.3,"spaceBetween":32,"speed":2000,"autoplay":true,"centeredSlides":true,"breakpoints":{"540":{"slidesPerView":1.5},"768":{"slidesPerView":1.8},"1200":{"slidesPerView":2},"1530":{"slidesPerView":2.8}}}'>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide rounded-3 overflow-hidden">
+                <div class="position-relative w-100 h-100"><img class="w-100 h-100 object-fit-cover" src="/assets/img/gallery/48.png" alt="" />
+                  <div class="backdrop-faded p-4 p-md-6">
+                    <div class="d-flex align-items-center mb-2"><span class="text-secondary-lighter me-2" data-feather="calendar"></span>
+                      <h6 class="mb-0 fw-semibold text-secondary-lighter pe-3 me-3 border-end">Monday, Nov 07, 2022</h6><span class="fa-solid fa-star text-warning fs-9 me-2"></span>
+                      <h6 class="mb-0 text-secondary-lighter fw-semibold">4.8</h6>
+                    </div><a class="text-white fw-bold fs-7" href="#!">Beautiful Frence, Let's Travelling!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide rounded-3 overflow-hidden">
+                <div class="position-relative w-100 h-100"><img class="w-100 h-100 object-fit-cover" src="/assets/img/gallery/49.png" alt="" />
+                  <div class="backdrop-faded p-4 p-md-6">
+                    <div class="d-flex align-items-center mb-2"><span class="text-secondary-lighter me-2" data-feather="calendar"></span>
+                      <h6 class="mb-0 fw-semibold text-secondary-lighter pe-3 me-3 border-end">Monday, Nov 06, 2022</h6><span class="fa-solid fa-star text-warning fs-9 me-2"></span>
+                      <h6 class="mb-0 text-secondary-lighter fw-semibold">4.5</h6>
+                    </div><a class="text-white fw-bold fs-7" href="#!">Man Standing on Watching Mountain</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide rounded-3 overflow-hidden">
+                <div class="position-relative w-100 h-100"><img class="w-100 h-100 object-fit-cover" src="/assets/img/gallery/50.png" alt="" />
+                  <div class="backdrop-faded p-4 p-md-6">
+                    <div class="d-flex align-items-center mb-2"><span class="text-secondary-lighter me-2" data-feather="calendar"></span>
+                      <h6 class="mb-0 fw-semibold text-secondary-lighter pe-3 me-3 border-end">Monday, Nov 05, 2022</h6><span class="fa-solid fa-star text-warning fs-9 me-2"></span>
+                      <h6 class="mb-0 text-secondary-lighter fw-semibold">4.2</h6>
+                    </div><a class="text-white fw-bold fs-7" href="#!">Beautiful Bali Indonesia, Let's Travelling!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide rounded-3 overflow-hidden">
+                <div class="position-relative w-100 h-100"><img class="w-100 h-100 object-fit-cover" src="/assets/img/gallery/64.png" alt="" />
+                  <div class="backdrop-faded p-4 p-md-6">
+                    <div class="d-flex align-items-center mb-2"><span class="text-secondary-lighter me-2" data-feather="calendar"></span>
+                      <h6 class="mb-0 fw-semibold text-secondary-lighter pe-3 me-3 border-end">Monday, Nov 04, 2022</h6><span class="fa-solid fa-star text-warning fs-9 me-2"></span>
+                      <h6 class="mb-0 text-secondary-lighter fw-semibold">4.5</h6>
+                    </div><a class="text-white fw-bold fs-7" href="#!">Chasing sunsets, making memories worldwide.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-nav">
+            <div class="swiper-button-next"><span class="fas fa-chevron-right text-primary" data-fa-transform="shrink-3"></span></div>
+            <div class="swiper-button-prev"><span class="fas fa-chevron-left text-primary" data-fa-transform="shrink-3"></span></div>
+          </div>
+        </div>
+        <div class="text-center mt-12 position-relative z-2">
+          <button class="btn btn-link p-0 fs-8">View all<span class="fa-solid fa-chevron-right ms-2" data-fa-transform="shrink-1"></span></button>
+        </div>
+      </section>
+      <section class="pb-10 pt-3">
+        <div class="bg-holder d-none d-xl-block" style="background-image:url(/assets/img/bg/bg-left-32.png);background-size:26%;background-position:left 115px;">
+        </div>
+               
+        
+     <!-- 앨범 하단 -->   
+         <div class="container-medium text-center mb-11 position-relative">
+          <h3 class="mb-2 text-body-emphasis">올림픽 메달리스트</h3>
+          <p class="text-body-tertiary mb-0">2024 파리 올림픽</p>
+        </div>
+        <div class="container-fluid px-sm-0">
+          <div class="swiper-theme-container swiper-slide-nav-top">
+            <div class="swiper-nav">
+              <div class="swiper-button-next"><span class="fas fa-chevron-right text-primary" data-fa-transform="shrink-3"></span></div>
+              <div class="swiper-button-prev"><span class="fas fa-chevron-left text-primary" data-fa-transform="shrink-3"></span></div>
+            </div>
+            <div class="swiper theme-slider" data-swiper='{"loop":true,"centeredSlides":true,"autoplay":true,"centeredSlidesBounds":true,"spaceBetween":16,"slidesPerView":1,"speed":1500,"breakpoints":{"576":{"slidesPerView":"auto"}}}'>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/images/high.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">17 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">22 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/images/korea.png" alt="" />
+                        <h4 class="mb-0 text-white">Korea archery</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/40.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">15 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">24 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/switzerland.png" alt="" />
+                        <h4 class="mb-0 text-white">Switzerland</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/42.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">44 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">123 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/turkey.png" alt="" />
+                        <h4 class="mb-0 text-white">Turkey</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/41.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">55 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">41 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/new-zealand.png" alt="" />
+                        <h4 class="mb-0 text-white">New Zealand</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/43.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">17 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">22 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/sweden.png" alt="" />
+                        <h4 class="mb-0 text-white">Sweden</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/44.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">44 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">123 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/turkey.png" alt="" />
+                        <h4 class="mb-0 text-white">Turkey</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/58.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">54 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">123 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/vietnam.png" alt="" />
+                        <h4 class="mb-0 text-white">Vietnam</h4>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="swiper-slide w-sm-auto"><a class="position-relative rounded-3 overflow-hidden d-block" href="#!"><img class="w-100 w-sm-auto object-fit-cover" src="/assets/img/gallery/57.png" alt="" height="220" />
+                    <div class="img-backdrop-faded">
+                      <div class="image-reveal-content mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2"><span class="fa-solid fa-hotel text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">17 Hotels</h6>
+                        </div>
+                        <div class="d-flex align-items-center gap-2"><span class="fa-solid fa-tree-city text-secondary-lighter"></span>
+                          <h6 class="mb-0 text-secondary-lighter fw-semibold">22 Tour Package</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2"><img src="/assets/img/country/japan.png" alt="" />
+                        <h4 class="mb-0 text-white">Japan</h4>
+                      </div>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-0">
+        <div class="bg-holder d-none d-xl-block" style="background-image:url(/assets/img/bg/bg-left-29.png);background-size:auto;background-position:-15%;">
+        </div>
+        <!--/.bg-holder-->
+        
+        
+        
+        
+        
+        
+      
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="/vendors/popper/popper.min.js"></script>
+    <script src="/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="/vendors/anchorjs/anchor.min.js"></script>
+    <script src="/vendors/is/is.min.js"></script>
+    <script src="/vendors/fontawesome/all.min.js"></script>
+    <script src="/vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="/vendors/list.js/list.min.js"></script>
+    <script src="/vendors/feather-icons/feather.min.js"></script>
+    <script src="/vendors/dayjs/dayjs.min.js"></script>
+    <script src="/assets/js/phoenix.js"></script>
+    <script src="/vendors/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="/vendors/isotope-packery/packery-mode.pkgd.min.js"></script>
+    <script src="/vendors/bigpicture/BigPicture.js"></script>
+    <script src="/vendors/typed.js/typed.umd.js"></script>
+    <script src="/vendors/swiper/swiper-bundle.min.js"></script>
+
+  </body>
+
+</html>
