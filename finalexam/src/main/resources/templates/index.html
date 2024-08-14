@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="/create">회원가입</a>
+<br>
+<a href="/boardcreate">게시판</a>
+<br>
+
+<th:block th:each="member : ${members}">
+
+
+[[${member.id}]] / [[${member.pw}]] / [[${member.name}]] <br>
+
+
+</th:block>
+
+<th:block th:each="board : ${boards}">
+
+
+[[${board.title}]] / [[${board.content}]] / [[${board.writer}]] <br>
+
+
+</th:block>
+
+
+</body>
+</html>
